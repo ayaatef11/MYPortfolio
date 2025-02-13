@@ -13,13 +13,18 @@
 <body>
     <header>
         <nav class="contanier">
-            <img class="logo" src="./mm.png" alt="">
+            <img class="logo" src="./img/mm.png" alt="">
             <i id="btn-menu" class="fa-solid fa-bars"></i>
             <div class="nav-links">
                 <a href="#home" class="active">Home</a>
                 <a href="#about">About</a>
+                <a href="#edu">Education</a>
+                <a href="#exe">Experience</a>
+                <a href="#skill">Skills</a>
                 <a href="#services">Services</a>
                 <a href="#Portfolio">Portfolio</a>
+                <a href="#cert">Certification</a>
+                <a href="#lang">Languages</a>
                 <a href="#Contact">Contact</a>
             </div>
         </nav>
@@ -27,6 +32,10 @@
 <!-- start home sec -->
     <div class="hero" id="home">
         <div class="contanier">
+                <label class="switch">
+                  <input type="checkbox" id="darkModeToggle">
+                  <span class="slider"></span>
+                </label>
             <div class="content">
                 <h4>Hello, I'm</h4>
                 <h1>Aya Atef</h1>
@@ -36,7 +45,7 @@
             </div>
 
             <div class="hero-img">
-                <img src="./Aya.jpg" alt="">
+                <img src="./img/Aya.jpg" alt="">
             </div>
         </div>
     </div>
@@ -63,13 +72,13 @@
             </div>
         </div>
     </section>
-    <div class="section">
+    <div class="section" id="edu">
         <h2>Education</h2>
         <p><span class="highlight">Faculty Of Computers and Information</span>, Zagazig University</p>
         <p><strong>Major: </strong>Computer Science</p>
     </div>
 
-    <div class="section experience">
+    <div class="section experience"id="exe">
         <h2>Experience</h2>
         <ul>
             <li>
@@ -84,11 +93,11 @@
     </div>
 </div>
     <!--                 Skills     -->
-    <div class="skills-container">
+    <div class="skills-container" id="skill">
         <h1 class="skills-title">💻 My Skills</h1>
 
             <h1 class="skills-titles">Technical Skills</h1>
-        <class class="skills-grid">
+            <class class="skills-grid">
             <div class="skill">🚀 Restful APIs</div>
             <div class="skill">💾 Databases (SQL)</div>
             <div class="skill">🎯 OOP & Design Patterns</div>
@@ -125,19 +134,19 @@
             <div class="boxs">
 
                 <div class="box">
-                    <img src="./api.png" alt=""width="300" height="200">
+                    <img src="./img/api.png" alt=""width="300" height="200">
                     <h3>API development</h3>
                     <p>Build RESTful APIs with ASP.NET Core Web API</p>
                 </div>
 
                 <div class="box">
-                    <img src="./cloud.png" alt=""width="300" height="200">
+                    <img src="./img/cloud.png" alt=""width="300" height="200">
                     <h3>Cloud Integration</h3>
                     <p>Deploy and manage applications on Azure</p>
                 </div>
 
                 <div class="box">
-                    <img src="./authentication.png" alt=""width="300" height="200">
+                    <img src="./img/authentication.png" alt=""width="300" height="200">
                     <h3>Authentication and Authorization</h3>
                     <p> Implement JWT, OAuth, Identity Server, and Role-based access control</p>
                 </div>
@@ -157,28 +166,28 @@
             <div class="projects-grid">
                 <div class="pro-card">
                     <a href="https://github.com/ayaatef11/E-tailing-Platform">
-                        <img src="./etailing.png" alt="E-tailing Platform">
+                        <img src="./img/etailing.png" alt="E-tailing Platform">
                         <p>E-tailing Platform</p>
                     </a>
                 </div>
     
                 <div class="pro-card">
                     <a href="https://github.com/ayaatef11/Race-Master">
-                        <img src="./racemaster.png" alt="Race Master">
+                        <img src="./img/racemaster.png" alt="Race Master">
                         <p>Race Master</p>
                     </a>
                 </div>
     
                 <div class="pro-card">
                     <a href="https://github.com/ayaatef11/ShopEase">
-                        <img src="./shopease.png" alt="ShopEase">
+                        <img src="./img/shopease.png" alt="ShopEase">
                         <p>Shop Ease</p>
                     </a>
                 </div>
     
                 <div class="pro-card">
                     <a href="https://github.com/ayaatef11/Mango">
-                        <img src="./mango.png" alt="Mango">
+                        <img src="./img/mango.png" alt="Mango">
                         <p>Mango</p>
                     </a>
                 </div>
@@ -186,54 +195,54 @@
         </div>
     </section>
 
-    <section class="certifications">
+    <section class="certifications" id="cert">
         <h2>🎓 Certifications</h2>
         <div class="certifications-grid">
             <div class="cert-card">
                 <a href="https://drive.google.com/file/d/1ZSvFBF-9O4DIMTOYTpo0ZOYB6MtMzqkp/view?usp=drive_link">
-                    <img src="./ECPC.png" alt="ECPC-2025 Collegiate">
+                    <img src="./img/ECPC.png" alt="ECPC-2025 Collegiate">
                     <p>ECPC-2025 Collegiate</p>
                 </a>
             </div>
     
             <div class="cert-card">
                 <a href="https://drive.google.com/file/d/1ePQFWxP8h8zGtNP6PAvi-6Q-rt8RqwU6/view?usp=sharing">
-                    <img src="./Nasa.png" alt="NASA Space Apps Certificate">
+                    <img src="./img/Nasa.png" alt="NASA Space Apps Certificate">
                     <p>NASA Space Apps Certificate</p>
                 </a>
             </div>
     
             <div class="cert-card">
                 <a href="https://drive.google.com/file/d/1hSolF78oK3U0ohJtARfP00yu0XH68vdh/view?usp=sharing">
-                    <img src="./SoftSkills.png" alt="Education for Employment Egypt">
+                    <img src="./img/SoftSkills.png" alt="Education for Employment Egypt">
                     <p>Education for Employment Egypt</p>
                 </a>
             </div>
     
             <div class="cert-card">
                 <a href="https://drive.google.com/drive/folders/11QxDvAkpLdrvQiLNB90IiavkH2HGbgrg">
-                    <img src="./MVC.png" alt="MVC Project">
+                    <img src="./img/MVC.png" alt="MVC Project">
                     <p>MVC Project</p>
                 </a>
             </div>
     
             <div class="cert-card">
                 <a href="https://drive.google.com/drive/folders/11QxDvAkpLdrvQiLNB90IiavkH2HGbgrg">
-                    <img src="./Jira.png" alt="Jira Certificate">
+                    <img src="./img/Jira.png" alt="Jira Certificate">
                     <p>Jira Certificate</p>
                 </a>
             </div>
     
             <div class="cert-card">
                 <a href="https://drive.google.com/drive/folders/11QxDvAkpLdrvQiLNB90IiavkH2HGbgrg">
-                    <img src="./Agile.png" alt="Agile Certificate">
+                    <img src="./img/Agile.png" alt="Agile Certificate">
                     <p>Agile Certificate</p>
                 </a>
             </div>
     
             <div class="cert-card">
                 <a href="https://drive.google.com/drive/folders/11QxDvAkpLdrvQiLNB90IiavkH2HGbgrg">
-                    <img src="./Loyalixa.jpg" alt="Loyalixa Certificate - Problem Solving">
+                    <img src="./img/Loyalixa.jpg" alt="Loyalixa Certificate - Problem Solving">
                     <p>Loyalixa Certificate - Problem Solving</p>
                 </a>
             </div>
@@ -241,7 +250,7 @@
     </section>
     
     
-    <section class="languages">
+    <section class="languages" id="lang">
         <h1>🌍 Languages</h1>
         <ul>
             <li>Arabic: <span class="level">C2</span></li>

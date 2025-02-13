@@ -181,7 +181,7 @@ header .logo{
 /* start Services */
 
 .services{
-    background-color: #f0f4f9;
+    /* background-color: #f0f4f9; */
     text-align: center;
 }
 .services .boxs .box{
@@ -261,7 +261,7 @@ color: #e017ff;
 
 /* Skills Container */
 .skills-container {
-    background: #fff;
+    /* background: #fff; */
     padding: 100px 200px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -357,7 +357,7 @@ color: #e017ff;
 .certifications {
     text-align: center;
     padding: 50px 20px;
-    background: #f8f9fa;
+    /* background: #f8f9fa; */
 }
 
 .certifications h2 {
@@ -425,7 +425,7 @@ color: #e017ff;
 
 /*      languages */
 .languages {
-    background: #f8f9fa; /* Light grey background */
+    /* background: #f8f9fa; Light grey background */
     padding: 20px;
     border-radius: 10px; /* Rounded corners */
     max-width: 400px;
@@ -536,7 +536,7 @@ color: #e017ff;
 
 /* Portfolio Section Styling */
 .portfolio {
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     padding: 60px 20px;
     text-align: center;
 }
@@ -593,4 +593,71 @@ color: #e017ff;
 
 .pro-card a {
     text-decoration: none;
+}
+/* toggling */
+.switch {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Slider (Switch Button) */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc; /* Default Light Mode */
+    transition: .4s;
+    border-radius: 20px;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+/* When the toggle is ON (Dark Mode) */
+input:checked + .slider {
+    background-color: #cf00f4; /* Purple color like in the button */
+}
+
+input:checked + .slider:before {
+    transform: translateX(20px);
+}
+
+/* Dark Mode Label */
+.label {
+    font-size: 14px;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Dark Mode Content */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+body.dark-mode p , body.dark-mode h1, body.dark-mode h2 , body.dark-mode h4{
+    color:white !important;
 }

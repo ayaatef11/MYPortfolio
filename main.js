@@ -18,3 +18,9 @@ window.onscroll = function(){
     btnMenu.classList.remove('fa-times')
     Menu.classList.remove('active')
 }
+
+const toggle = document.getElementById("darkModeToggle");
+
+toggle.addEventListener("change", () => {
+  document.body.classList.toggle("dark-mode");
+});
