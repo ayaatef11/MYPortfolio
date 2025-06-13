@@ -475,6 +475,11 @@ color: #e017ff;
     padding: 40px 20px;
     text-align: center;
 }
+.contact p{
+    color: #fff;
+    padding:30px;
+    padding-left: 50px;;
+}
 
 .contact .sec-top h1 {
     font-size: 30px;
